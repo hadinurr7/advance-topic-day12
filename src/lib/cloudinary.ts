@@ -6,10 +6,6 @@ import {
   CLOUDINARY_API_SECRET,
   CLOUDINARY_CLOUD_NAME,
 } from "../config";
-import { resolve } from "path";
-import { rejects } from "assert";
-import { error } from "console";
-import { Result } from "express-validator";
 
 cloudinary.config({
   api_key: CLOUDINARY_API_KEY,
